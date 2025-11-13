@@ -80,11 +80,7 @@ export default factories.createCoreService('api::email.email', ({ strapi }) => (
 
         cfield.value = cfield.type_config.options[cfield.value].name
       }
-
-      // if value is a longtext, replace \n with new line
-      if (cfield.type === 'longtext') {
-        cfield.value = cfield.value.replace(/\\n/g, '\n');
-      }
+      
 
       // if boolean, convert to true/false
       if (cfield.type === 'boolean') {
