@@ -33,6 +33,13 @@
     },
     "replyTo": {
       "type": "string"
+    },
+    "subjectOverride": {
+      "type": "string",
+      "required": false
+    },
+    "ccTo": {
+      "type": "string"
     }
   }
 }
