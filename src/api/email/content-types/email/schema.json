@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "emails",
+  "info": {
+    "singularName": "email",
+    "pluralName": "emails",
+    "displayName": "email"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "mailReferenceId": {
+      "type": "integer",
+      "required": true
+    },
+    "fieldContainingMailAddress": {
+      "type": "string"
+    },
+    "customToAddress": {
+      "type": "string"
+    },
+    "fromName": {
+      "type": "string"
+    },
+    "fromAddress": {
+      "type": "string"
+    },
+    "replyTo": {
+      "type": "string"
+    }
+  }
+}

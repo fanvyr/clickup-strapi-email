@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "configurations",
+  "info": {
+    "singularName": "configuration",
+    "pluralName": "configurations",
+    "displayName": "configuration"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "clickupSuccessMessage": {
+      "type": "text"
+    },
+    "clickupErrorMessage": {
+      "type": "text"
+    },
+    "postResponseToClickupTask": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "localization": {
+      "type": "string",
+      "default": "de-DE",
+      "required": true
+    },
+    "true_word": {
+      "type": "string",
+      "default": "Yes"
+    },
+    "false_word": {
+      "type": "string",
+      "default": "No"
+    }
+  }
+}
